@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// Define the Expense class
 class Expense {
     private String name;
     private double amount;
@@ -10,6 +11,7 @@ class Expense {
         this.amount = amount;
     }
 
+    // getter for each variable
     public String getName() {
         return name;
     }
@@ -18,12 +20,15 @@ class Expense {
         return amount;
     }
 
+    // Override the toString() method
     public String toString() {
         return name + " - $" + String.format("%.2f", amount);
     }
 }
 
 public class ExpenseTracker {
+
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Expense> expenses = new ArrayList<>();
@@ -31,6 +36,7 @@ public class ExpenseTracker {
 
         System.out.println("Welcome to the Simple Expense Tracker");
 
+        // main program loop
         while (running) {
             System.out.println("\nMenu:");
             System.out.println("1. Add expense");
@@ -50,6 +56,7 @@ public class ExpenseTracker {
                 continue;
             }
 
+            // switch case
             switch (choice) {
                 case 1:
                     System.out.print("Enter expense name: ");
@@ -114,6 +121,7 @@ public class ExpenseTracker {
             }
         }
 
+        // close the scanner
         scanner.close();
     }
 }

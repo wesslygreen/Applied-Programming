@@ -2,7 +2,7 @@
 
 Add a description of your project here.
 
-## For this module I am using Java Language. I plan to create a simple expense tracker using this language. It will track the expenses, and the amount that was spent. I also plan to store the data in lists of the information entered. I plan to practice classes, calculations and loops. 
+## For this module I am using Java Language. I plan to create a simple expense tracker using this language. It will track the expenses, and the amount that was spent. I plan to practice classes, calculations and loops. 
 
 [Software Demo](Put_Your_Video_Link_Here)
 
