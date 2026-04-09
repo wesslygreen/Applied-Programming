@@ -1,50 +1,46 @@
-# Expense Tracker
+# Task Manager
 
-Add a description of your project here.
+This project is a simple Task Manager made with the Erlang language. It allows the user to add tasks, view the list of tasks, and mark tasks as completed. This project helped me practice functions, recursion, lists, and user input/output in Erlang.
 
-## For this module I am using Java Language. I plan to create a simple expense tracker using this language. It will track the expenses, and the amount that was spent. I plan to practice classes, calculations and loops. 
 
-[Software Demo](Put_Your_Video_Link_Here)
+## Instructions for Build and Use
+
+[Software Demo] https://youtu.be/FKAl4bVoS5o
 
 Steps to build and/or run the software:
 
-1. Installed the Java pack on vs code 
-2. Compile the program by typing javac ExpenseTracker.java
-3. Created a class called Expense
-4. Added an arraylist to store the expenses
-5. While loop
-6. Added logic to calculate total and average 
-7. Tested program
+1. Installed Erlang in windows and vs code 
+2. Compile the file by typing `erlc task_manager.erl`
+3. Run the program by typing `task_manager:start().`
 
 Instructions for using the software:
 
-1. After Running the progam select one of the 5 options
-2. Add an expense and choose an item 
-3. Select the correct option to verify the total and average 
-4. Exit when you are done
+1. Start the program in the terminal 
+2. Choose an option from the menu from 1-4
+3. Each option will allow to add, mark the task as completed or view it 
+4. Select option 4 to exit 
 
 ## Development Environment
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* VS Code
-* Java JDK 
-* Extension Pack for Java
+* Erlang/OTP 28
+* VS Code 
+* Erlang LS extension for VS Code
 
 ## Useful Websites to Learn More
 
 I found these websites useful in developing this software:
 
-* https://www.geeksforgeeks.org/java/
-* https://www.w3schools.com/java/
-* ChatGPT
+* [Erlang Official Website](https://www.erlang.org/)
+* [Erlang Documentation](https://www.erlang.org/doc/)
+* Chatgpt (Open AI)
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* Save the total and the expenses to store data
-* An option to delete an item or an expense
-* Add a password for an item that can be more valuable
-
+* [ ] Add an option to delete tasks
+* [ ] Save tasks to a file so they stay after closing the program
+* [ ] Better formatting of the program 
 
